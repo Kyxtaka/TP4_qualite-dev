@@ -5,13 +5,13 @@ public class Cours {
     private Horaire uneHoraire;
     private List<User> lesUsers;
     private List<Groupe> lesGroupes;
-    private List<Matiere> lesMatieres;
-  
-    public Cours(Horaire uneHoraire){
+    private Matiere matiere;
+
+    public Cours(Horaire uneHoraire, Matiere matiere){
         this.uneHoraire = uneHoraire;
         this.lesUsers = new ArrayList<>();
         this.lesGroupes = new ArrayList<>();
-        this.lesMatieres = new ArrayList<>();
+        this.matiere = matiere;
     }
 
     public void ajouteUser(User unUser){
@@ -23,7 +23,6 @@ public class Cours {
         this.lesGroupes.add(unGroupe);
         
     }
-
     public Horaire getUneHoraire() {
         return this.uneHoraire;
     }
@@ -35,7 +34,23 @@ public class Cours {
     public List<Groupe> getLesGroupes() {
         return this.lesGroupes;
     }
-    public List<Matiere> getLesMatieres() {
-        return this.lesMatieres;
+    
+    public Matiere getMatiere() {
+        return this.matiere;
+    }
+
+    public void setMatiere(Matiere matiere) {
+        this.matiere = matiere;
+    }
+    public void setUneHoraire(Horaire uneHoraire) {
+        this.uneHoraire = uneHoraire;
+    }
+
+    public void setLesUsers(List<User> lesUsers) {
+        this.lesUsers = lesUsers;
+    }
+
+    public void setLesGroupes(List<Groupe> lesGroupes) {
+        this.lesGroupes = lesGroupes;
     }
 }
