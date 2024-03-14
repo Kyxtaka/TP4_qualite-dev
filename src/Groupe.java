@@ -11,7 +11,7 @@ public class Groupe {
     }
 
     public List<Etudiant> getEtudiants() {
-        return listEtudiants;
+        return this.listEtudiants;
     }
 
     public void setEtudiants(List<Etudiant> listEtudiants) {
@@ -19,7 +19,7 @@ public class Groupe {
     }
 
     public List<Cours> getCours() {
-        return listCours;
+        return this.listCours;
     }
 
     public void setCours(List<Cours> listCours) {
