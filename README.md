@@ -1,1 +1,2 @@
-# TP4 Qualité Dev
+# TP4 Qualité Dev : 
+# Membre Group : Nathan RANDRIANTSOA et Joann RAIGNAULT
