@@ -2,6 +2,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class Groupe {
+    private String nom; 
     private List<Etudiant> listEtudiants;
     private List<Cours> listCours;
 
@@ -9,7 +10,13 @@ public class Groupe {
         this.listEtudiants = new ArrayList<>();
         this.listCours = new ArrayList<>();
     }
+    public String getNom() {
+        return this.nom;
+    }
 
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
     public List<Etudiant> getEtudiants() {
         return this.listEtudiants;
     }

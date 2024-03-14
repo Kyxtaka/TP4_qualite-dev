@@ -6,11 +6,12 @@ public class Cours {
     private List<User> lesUsers;
     private List<Groupe> lesGroupes;
     private List<Matiere> lesMatieres;
-
+  
     public Cours(Horaire uneHoraire){
         this.uneHoraire = uneHoraire;
         this.lesUsers = new ArrayList<>();
         this.lesGroupes = new ArrayList<>();
+        this.lesMatieres = new ArrayList<>();
     }
 
     public void ajouteUser(User unUser){
