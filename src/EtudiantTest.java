@@ -15,4 +15,10 @@ public class EtudiantTest {
         assertEquals(etu2.getFirstName(), "Joann");
         assertEquals(etu2.getLastName(), "Raignault");
     }
+    @Test
+    public void testEtuciantCreate3() {
+        Etudiant etu2 = new Etudiant("Joann","Raignault");
+        assertEquals(etu2.getFirstName(), "Joann");
+        assertEquals(etu2.getLastName(), "Raignault");
+    }
 }

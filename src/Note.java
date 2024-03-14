@@ -8,7 +8,7 @@ public class Note {
         this.nomControle = nomControle;
         this.etudiant = etudiant;
         this.matiere = matiere;
-        this.note note;
+        this.note = note;
     }
     public Note(String nomControle, Etudiant etudiant, Matiere matiere) {
         this.nomControle = nomControle;
@@ -25,7 +25,7 @@ public class Note {
         return this.etudiant;
     }
     public Matiere getMatiere() {
-        return this.matiere
+        return this.matiere;
     }
     public double getNote() {
         return this.note;

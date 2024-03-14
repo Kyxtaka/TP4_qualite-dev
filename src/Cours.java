@@ -5,7 +5,7 @@ public class Cours {
     private Horaire uneHoraire;
     private List<User> lesUsers;
     private List<Groupe> lesGroupes;
-
+  
     public Cours(Horaire uneHoraire){
         this.uneHoraire = uneHoraire;
         this.lesUsers = new ArrayList<>();
