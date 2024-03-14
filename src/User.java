@@ -1,4 +1,5 @@
 public class User {
+    
     private String name;
     private Cours unCours;
 
@@ -7,4 +8,20 @@ public class User {
         this.unCours = unCours;
     }
     
+    public String getName() {
+        return this.name;
+    }
+
+    public Cours getUnCours() {
+        return this.unCours;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setUnCours(Cours unCours) {
+        this.unCours = unCours;
+    }
+
+
 }
