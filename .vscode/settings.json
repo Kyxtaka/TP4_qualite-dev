@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/iut45/Etudiants/o22303038/Documents/TP_TD/R2.03/jar/hamcrest-2.2.jar",
+        "/home/iut45/Etudiants/o22303038/Documents/TP_TD/R2.03/jar/junit-4.13.2.jar"
+    ]
+}
