@@ -7,7 +7,11 @@ public class User {
         this.name = name;
         this.unCours = unCours;
     }
-    
+
+    public Cours creerCours(Horaire date, Matiere matiere){
+        return new Cours(date,matiere);
+    }
+
     public String getName() {
         return this.name;
     }
@@ -22,6 +26,5 @@ public class User {
     public void setUnCours(Cours unCours) {
         this.unCours = unCours;
     }
-
 
 }
