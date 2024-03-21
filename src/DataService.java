@@ -1,5 +1,9 @@
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 public class DataService {
     public static DataService instance; 
@@ -21,4 +25,5 @@ public class DataService {
         this.listEtudiants.add(etudiant);
     }
     
+    FileReader fileReader = new FileReader(null); 
 }
